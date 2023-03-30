@@ -9,6 +9,7 @@ such:
 To use the module in this manner, declare:
     from units import *
 """
+import math as m
 
 nm = 1e-12
 um = 1e-9
@@ -26,3 +27,8 @@ s = 1
 mg = 1e-6
 g = 1e-3
 kg = 1
+
+rad = 1
+mrad = 1e-3
+urad = 1e-6
+deg = m.pi/180
